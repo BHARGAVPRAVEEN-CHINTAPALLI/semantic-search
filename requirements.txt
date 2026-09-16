@@ -1,0 +1,13 @@
+# Core - always required
+chromadb>=0.5.0
+
+# Pick the embedding provider(s) you plan to use:
+
+# Local, no API key (default) - downloads a small model on first run
+sentence-transformers>=3.0.0
+
+# OpenAI embeddings API
+# openai>=1.0.0
+
+# Voyage AI embeddings API (Anthropic's recommended embeddings partner)
+# voyageai>=0.3.0
